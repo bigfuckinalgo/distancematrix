@@ -12,7 +12,3 @@ Furthermore, you will need to have a Bing Maps API key and save it in a `secrets
 ## Running the script
 
 `python3 matrix.py` runs the script that calls the Bing Maps distance API and writes the distance matrix JSON. For this to work, the file specified within `with open("kl_b-junioren_niedersachsen.json", "r") as f:` has to be presented (We can't share this input data on GitHub, due to requirements by the Challenge provider).
-
-## CSV output
-
-Originally this script was developed with a CSV file as output, but we preferred to have JSON as both input and output. However, the lines of code to (also) create a CSV are still included in the file - just commented out.
